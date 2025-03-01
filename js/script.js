@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-    function updateTotal() {
+function updateTotal() {
         let total = 0;
         document.querySelectorAll(".card").forEach(card => {
             let quantityElem = card.querySelector(".quantity");
@@ -44,4 +43,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     updateTotal();
-});
